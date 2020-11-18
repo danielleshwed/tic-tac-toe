@@ -1,0 +1,27 @@
+[data-component=app] {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-image: linear-gradient(90deg, #a8caba 0%, #5d4157 100%);
+  background-size: cover;
+  min-height: 10em;
+  color: #222;
+}
+
+
+.ticTacGrid {
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.cell {
+  border: 1px solid;
+}
+
+.xoItem {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
+}
+
